@@ -1,0 +1,136 @@
+/* General */
+body {
+    background-image: url("graphics/bg.png");
+    background-color: #ffffff;
+    background-size: 160%;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    border: 10px solid #00d0d7;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    outline: 5px solid #008387;
+    box-shadow: inset 0 0 0 5px #008387;
+}
+
+.mt {
+    margin-top: 1000px;
+}
+.fxa {
+    -webkit-text-stroke: 1px white;
+    border: 5px solid#ff7f11;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Arial Black', sans-serif;
+    color: white;
+    background-color: rgb(255, 223, 96);
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    min-width: 50%;
+    color: #ff0000;
+    box-shadow: 0 0 3px black;
+}
+
+.fxa:hover {
+    background-color: #ff7f11;
+    color: white;
+    transform: scale(1.05);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #00d0d7;
+    font-family: 'Arial Black', sans-serif;
+    -webkit-text-stroke: 2px #007da0;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #ff7f11;
+    font-family: 'Arial Black', sans-serif;
+    -webkit-text-stroke: 1px #ff1b1c;
+}
+
+section {
+    border: 5px solid #ffed23;
+    width: 50%;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;    
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    text-align: left;
+    margin: 20px auto;
+    outline: 5px solid #ff7f11;
+    box-shadow: inset 0 0 0 5px #ff7f11;
+    box-shadow: 0 0 10px black;
+    font-size: 20px;
+}
+
+/* for quiz */
+.score {
+    background: linear-gradient(45deg, #add8e6, #b19cd9);
+    border: 5px solid #b19cd9;
+    font-family: 'Arial Black', sans-serif;
+    min-width: 400px;
+    padding: 10px 500px;
+    color: #ffffff;
+    box-shadow: 0 0 5px black;
+}
+
+.mt {
+    margin-top: 60px;
+}
+
+.stick {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(45deg, #00ffee, #00a2a8);
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: 0 0 5px black;
+    padding: 1px;
+}
+
+.sec {
+    border: 5px solid #ffed23;
+    width: 50%;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;    
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    margin: 20px auto;
+    outline: 5px solid #ff7f11;
+    box-shadow: inset 0 0 0 5px #ff7f11;
+    box-shadow: 0 0 10px black;
+    font-size: 20px;
+}
